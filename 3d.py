@@ -20,3 +20,6 @@ ax.set_ylabel("Y Label")
 ax.set_zlabel("Z Label")
 ax.set_title("3D Scatter Plot Example")
 plt.legend()
+
+# Show the plot
+plt.show()
