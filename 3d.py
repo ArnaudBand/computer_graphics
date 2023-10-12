@@ -12,3 +12,11 @@ z = np.random.random(100)
 fig = plt.figure()
 ax = fig.add_subplot(111, projection="3d")
 ax.scatter(x, y, z,label="Random 3D data", color="red", marker="o")
+
+#  Add labels and title
+
+ax.set_xlabel("X Label")
+ax.set_ylabel("Y Label")
+ax.set_zlabel("Z Label")
+ax.set_title("3D Scatter Plot Example")
+plt.legend()
